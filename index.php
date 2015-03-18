@@ -15,21 +15,21 @@
 <body>
 
 <div id="page-wrapper">
-	<div class="container-fluid top-navigation">
+	<div class="container top-navigation">
 	 	<div class="row">
 	 		<ul class="main-menu">
-		 		<li class="col-xs-1 col-xs-offset-1"><a href="#">HOME</a></li>
-		 		<li class="col-xs-1"><a href="#">ABOUT</a></li>
-		 		<li class="col-xs-1"><a href="#">PRODUCTS</a></li>
-		 		<li id="logo-nav" class="col-xs-4"><a href="/"><img id="logo" src="images/logo.jpg" height="25px" width="auto" alt="Nimo & co"></a>
-		 		<li class="col-xs-1"><a href="#">CLIENTS</a></li>
-		 		<li class="col-xs-1"><a href="#">NEWS</a></li>
-		 		<li class="col-xs-1"><a href="#">CONTACT</a></li>
+		 		<li class="abc nopadding-l"><a href="#">HOME</a></li>
+		 		<li class="abc"><a href="#">ABOUT</a></li>
+		 		<li class="abc"><a href="#">PRODUCTS</a></li>
+		 		<li class="abc"><a href="/"><img id="logo" src="images/logo.jpg" height="25px" width="auto" alt="Nimo & co"></a>
+		 		<li class="abc"><a href="#">CLIENTS</a></li>
+		 		<li class="abc"><a href="#">NEWS</a></li>
+		 		<li class="abc"><a href="#">CONTACT</a></li>
 	 		</ul>
 	 	</div>
 	</div>
 
-	<div class="container-fluid">
+	<div class="container-fluid padding-t-30">
 		<div class="row">
 			<div id="slider">
 				<div class="main-slider">
@@ -96,7 +96,7 @@
 			</div>
 			<div class="col-xs-6">
 				<h3 class="content-heading">LATEST NEWS</h3>
-				<p class="content-detail">Winter is nearly here and the Mountain Collective prices are about to go up! Grab details and the ultimate season pass here...</p>
+				<p class="content-detail"><a href="#">Winter is nearly here and the Mountain Collective prices are about to go up! Grab details and the ultimate season pass here...</a></p>
 				<p class="content-date">01 Oct 2015</p>
 			</div>
 		</div>
