@@ -15,10 +15,28 @@ body{
   vertical-align: text-bottom;
 }
 
+.centeral{
+	text-align: center;
+	margin: 0 auto !important;
+}
+
 .container{
 	width: 1004px;
 	box-sizing: border-box;
 	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.row{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+
+
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
 .container-fluid{
@@ -50,12 +68,12 @@ body{
 
 .default-width{
 	height: auto;
-	width: 1024px;
+	width: 1004px;
 	box-sizing: border-box;
 }
 
 .top-navigation{
-	width: 1024px;
+	width: 1004px;
 	box-sizing: border-box;
 }
 
@@ -71,11 +89,17 @@ body{
   	margin-left: 0;
   	text-align: center;
 	margin-bottom: 0;
+	display: inline-block;
 }
+
 
 .main-menu > li a{
 	padding: 15px 0px;
 	text-decoration: none;
+}
+
+.container.top-navigation {
+  width: 100%;
 }
 
 .top-navigation a{
@@ -89,7 +113,7 @@ body{
 }
 
 .main-slider{
-	width: 1024px;
+	width: 1004px;
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
@@ -100,17 +124,28 @@ body{
 
 /* slider css */
 
+.container.padding-t-30.slideshow{
+	width: 1004px;
+}
+
 #slider{
-	width: auto;
-	height: 300px;
+	width: 100%;
 	position: relative;
-	background: linear-gradient(to right, rgba(236,236,236,1) 0%, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 0%, rgba(236,236,236,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.slider-arrow {
+	width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.slider-arrow.next{
 }
 
 .slide-desc{
 	position: absolute;
-	top: 100px;
-	left: 20;
+	top: 120px;
+	left: 20px;
 	font-size: 20px;
 	color: #6C6C6C;
 }
@@ -173,8 +208,6 @@ body{
 
 .rslides_nav{
 	position: absolute;
-	right: 0;
-	left: 0;
 	margin: 0 auto;
 	top: 250px;
 	z-index: 3;
@@ -188,7 +221,12 @@ body{
 }
 
 .rslides1_nav.next{
+	right: 0;
 	background-position: -63px top;
+}
+
+.rslides1_nav.previous{
+	left: 0;
 }
 
 .slider-desc{
@@ -215,8 +253,9 @@ body{
 
 .footer{
 	height: auto;
-	width: 1024px;
+	width: 1004px;
 	box-sizing: border-box;
+	padding-right: 15px !important;
 }
 
 .footer-title {
@@ -296,7 +335,7 @@ body{
 
 .main-content{
 	height: auto;
-	width: 1024px;
+	width: 1004px;
 	box-sizing: border-box;
 	padding-bottom: 40px;
 }
@@ -333,7 +372,7 @@ body{
 
 .showcase{
 	height: auto;
-	width: 1024px;
+	width: 1004px;
 	box-sizing: border-box;
 }
 
@@ -449,14 +488,14 @@ body{
 
 .promotions{
 	height: auto;
-	width: 1024px;
+	width: 1004px;
 	box-sizing: border-box;
 	margin-top: 10px;
 }
 
 #promo-banner{
 	height: 180px;
-	width: 1024px;
+	width: 1004px;
 	position: relative;
 	background-position: center;
 	background-repeat: no-repeat;

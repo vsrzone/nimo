@@ -16,12 +16,16 @@
 
 <div id="page-wrapper">
 	<div class="container top-navigation">
-	 	<div class="row">
+	 	<div class="row centeral">
 	 		<ul class="main-menu">
 		 		<li class="abc nopadding-l"><a href="#">HOME</a></li>
 		 		<li class="abc"><a href="#">ABOUT</a></li>
 		 		<li class="abc"><a href="#">PRODUCTS</a></li>
+		 	</ul>
+		 	<ul class="main-menu">
 		 		<li class="abc"><a href="/"><img id="logo" src="images/logo.jpg" height="25px" width="auto" alt="Nimo & co"></a>
+		 	</ul>
+		 	<ul class="main-menu">
 		 		<li class="abc"><a href="#">CLIENTS</a></li>
 		 		<li class="abc"><a href="#">NEWS</a></li>
 		 		<li class="abc"><a href="#">CONTACT</a></li>
@@ -29,20 +33,16 @@
 	 	</div>
 	</div>
 
-	<div class="container-fluid padding-t-30">
+	<div class="container-fluid padding-t-30 slideshow">
 		<div class="row">
 			<div id="slider">
-				<div class="main-slider">
-					<div class="slide-desc"><p>Lorem ipsum dolor sit amet</p><button class="slide-button">More details</button></div>
-					<div class="slide-image"></div>
-					<!-- <div class="col-xs-1"></div>
-					<ul class="rslides">
-					  <li><img src="images/slides/slide01.jpg" alt="" title=""><p class="slider-desc">A STUNNING SPECIAL EDITION FROM <span style="color: 3883bd; font-weight: 700">Fulkrum</span></p></li>
-					  <li><img src="images/slides/slide02.jpg" alt="" title=""><p class="slider-desc">A STUNNING SPECIAL EDITION FROM <span style="color: 3883bd; font-weight: 700">Fulkrum</span></p></li>
-					  <li><img src="images/slides/slide03.jpg" alt="" title=""><p class="slider-desc">A STUNNING SPECIAL EDITION FROM <span style="color: 3883bd; font-weight: 700">Fulkrum</span></p></li>
-					</ul>
-					<div class="col-xs-1"></div> -->
-				</div>
+				<div class="slider-arrow"></div>
+				<ul class="rslides previous">
+				  <li><img src="images/slides/slide01.jpg" alt="" title=""><p class="slider-desc">A STUNNING SPECIAL EDITION FROM <span style="color: 3883bd; font-weight: 700">Fulkrum</span></p></li>
+				  <li><img src="images/slides/slide02.jpg" alt="" title=""><p class="slider-desc">A SAMPLE SPECIAL EDITION FROM <span style="color: 3883bd; font-weight: 700">Fulkrum</span></p></li>
+				  <li><img src="images/slides/slide03.jpg" alt="" title=""><p class="slider-desc">A TEXT SPECIAL EDITION FROM <span style="color: 3883bd; font-weight: 700">Fulkrum</span></p></li>
+				</ul>
+				<div class="slider-arrow next"></div>
 			</div>
 			
 		</div>
