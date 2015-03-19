@@ -345,7 +345,7 @@ body{
 	color: #5868a5;
 	font-weight: 400;
 	font-size: 14px;
-	padding: 20px 10px 20px 10px;
+	padding: 20px 10px 10px 10px;
 	box-sizing: border-box;
 }
 
@@ -609,12 +609,12 @@ p#breadcrums a {
 #side-heading{
 	color: #fff;
 	background-color: #eab158;
-	border-left: 3px solid #eab158;
+	border-left: 5px solid #eab158;
 }
 
 .side-menu:hover{
 	background-color: #eab158;
-	border-left: 3px solid #eab158;
+	border-left: 5px solid #eab158;
 	color: #fff;
 }
 
@@ -657,7 +657,7 @@ p#breadcrums a {
 /* management */
 
 .side-menu-selected{
-	border-left: 3px solid #eab158;
+	border-left: 5px solid #eab158;
 }
 
 .management-img{
@@ -690,7 +690,7 @@ p#breadcrums a {
 	box-sizing: border-box;
 	border-left: 20px solid #fff;
 	border-bottom: 20px solid #fff;
-	background-color: #ccc;
+	vertical-align: top;
 	display: inline-block;
 	position: relative;
 }
@@ -701,4 +701,22 @@ p#breadcrums a {
 	bottom: 0;
 	padding: 10px 20px 10px 5px;
 	background: rgba(255, 255, 255, 0.7);
+	font-size: 12px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: #999999;
+}
+
+.award-img-wrapper{
+	position: relative;
+	background-color: #ccc;
+}
+
+.award-desc{
+	height: auto;
+	width: 100%;
+	position: relative;
+	font-size: 12px;
 }

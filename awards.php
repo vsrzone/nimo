@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>NIMO & co</title>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
@@ -48,23 +49,22 @@
 					<a href="about.php"><li class="side-menu" id="side-heading">About Us</li></a>
 					<a href="awards.php"><li class="side-menu side-menu-selected">Awards and Certificates</li></a>
 					<a href="management.php"><li class="side-menu">Management</li></a>
-					<a href="#"><li class="side-menu">Other</li></a>
 				</ul>
 			</div>
 			<div class="col-xs-9">
 				<div class="about-info">
 					<h5>AWARDS</h5>
 					<ul>
-						<li class="award"><p class="award-title">Award Title</p><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
-						<li class="award"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
-						<li class="award nopadding-r"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
+						<li class="award"><div class="award-img-wrapper"><p class="award-title">Award for Best Brand</p><img src="images/awards/award4.png" alt="award" title="award" width="100%" height="auto"></div><p class="award-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></li>
+						<li class="award"><div class="award-img-wrapper"><p class="award-title">Award Title</p><img src="images/awards/award3.png" alt="award" title="award" width="100%" height="auto"></div><p class="award-desc">Duis non convallis felis. Integer convallis risus ex, vel convallis elit aliquam eu.</p></li>
+						<li class="award nopadding-r"><div class="award-img-wrapper"><p class="award-title">Best conceptual chair</p><img src="images/awards/award4.png" alt="award" title="award" width="100%" height="auto"></div><p class="award-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></li>
 					</ul>
 
 					<h5>CERTIFICATES</h5>
 					<ul>
-						<li class="award"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
-						<li class="award"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
-						<li class="award nopadding-r"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
+						<li class="award"><div class="award-img-wrapper"><p class="award-title">Years of Service</p><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></div><p class="award-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></li>
+						<li class="award"><div class="award-img-wrapper"><p class="award-title">Certificate Title</p><img src="images/awards/award1.png" alt="award" title="award" width="100%" height="auto"></div><p class="award-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></li>
+						<li class="award nopadding-r"><div class="award-img-wrapper"><p class="award-title">Certificate Title</p><img src="images/awards/award4.png" alt="award" title="award" width="100%" height="auto"></div><p class="award-desc">Duis non convallis felis. Integer convallis risus ex, vel convallis elit aliquam eu.</p></li>
 					</ul>
 				</div>
 			</div>
