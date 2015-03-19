@@ -80,7 +80,7 @@
 	<div class="container-fluid promotions">
 		<a href="#" target="_self">
 			<div id="promo-banner">
-				<img src="images/promo.png" alt="sample promo" title="sample promo" width="1004">
+				<img src="images/promo.png" alt="sample promo" title="sample promo" width="804">
 				<div id="promo-content">
 					<div id="promo-title">DELPHI SEATING EXCELLENCE</div>
 					<div id="promo-desc">50% OFF ON THIS JANUARY</div>

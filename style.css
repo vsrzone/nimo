@@ -21,7 +21,7 @@ body{
 }
 
 .container{
-	width: 1004px;
+	width: 804px;
 	box-sizing: border-box;
 	padding: 0 !important;
 	margin: 0 !important;
@@ -68,12 +68,12 @@ body{
 
 .default-width{
 	height: auto;
-	width: 1004px;
+	width: 804px;
 	box-sizing: border-box;
 }
 
 .top-navigation{
-	width: 1004px;
+	width: 804px;
 	box-sizing: border-box;
 }
 
@@ -109,7 +109,7 @@ body{
 }
 
 .main-slider{
-	width: 1004px;
+	width: 804px;
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
@@ -121,7 +121,7 @@ body{
 /* slider css */
 
 .container.padding-t-30.slideshow{
-	width: 1004px;
+	width: 804px;
 }
 
 #slider{
@@ -249,7 +249,7 @@ body{
 
 .footer{
 	height: auto;
-	width: 1004px;
+	width: 804px;
 	box-sizing: border-box;
 	padding-right: 10px !important;
 }
@@ -331,7 +331,7 @@ body{
 
 .main-content{
 	height: auto;
-	width: 1004px;
+	width: 804px;
 	box-sizing: border-box;
 	padding-bottom: 40px;
 }
@@ -368,7 +368,7 @@ body{
 
 .showcase{
 	height: auto;
-	width: 1004px;
+	width: 804px;
 	box-sizing: border-box;
 }
 
@@ -484,14 +484,14 @@ body{
 
 .promotions{
 	height: auto;
-	width: 1004px;
+	width: 804px;
 	box-sizing: border-box;
 	margin-top: 10px;
 }
 
 #promo-banner{
 	height: 180px;
-	width: 1004px;
+	width: 804px;
 	position: relative;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -542,7 +542,7 @@ a:visited{
 /* subpages */
 
 #top-banner{
-	width: 1004px;
+	width: 804px;
 	height: 300px;
 	position: relative;
 	background: linear-gradient(to right, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 100%);
@@ -551,7 +551,7 @@ a:visited{
 
 .about-content{
 	height: auto;
-	width: 1004px;
+	width: 804px;
 	box-sizing: border-box;
 	padding-bottom: 40px;
 }
