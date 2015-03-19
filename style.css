@@ -56,6 +56,15 @@ body{
 	padding-top: 30px !important;
 }
 
+.nomargin-t{
+	margin-top: 0 !important;
+}
+
+.margin-t5{
+	margin-top: 5px !important;
+}
+
+
 #page-wrapper{
 	min-height: 100%;
 	position: relative;
@@ -700,7 +709,7 @@ p#breadcrums a {
 	left: 0;
 	bottom: 0;
 	padding: 10px 20px 10px 5px;
-	background: rgba(255, 255, 255, 0.7);
+	background: linear-gradient(to right, rgba(247,247,247,1) 0%, rgba(252,252,252,0.9) 100%);
 	font-size: 12px;
 }
 
@@ -711,7 +720,7 @@ p{
 
 .award-img-wrapper{
 	position: relative;
-	background-color: #ccc;
+	background: linear-gradient(to right, rgba(232,232,232,1) 0%, rgba(242,242,242,1) 100%);
 }
 
 .award-desc{
@@ -719,4 +728,63 @@ p{
 	width: 100%;
 	position: relative;
 	font-size: 12px;
+}
+
+/* products page */
+
+.product-info{
+	position: relative;
+	font-size: 0;
+	letter-spacing: 0;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.brand{
+	width: 25%;
+	box-sizing: border-box;
+	/*border-bottom: 20px solid #fff;*/
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+	padding: 10px 10px 0px 10px !important;
+}
+
+.product-info ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 0;
+	letter-spacing: 0;
+}
+
+.product-info ul li{
+	padding: 0;
+	margin: 0;
+}
+
+.brand-img-wrapper {
+	background: linear-gradient(to right, rgba(232,232,232,1) 0%, rgba(242,242,242,1) 100%);
+}
+
+
+/* aviva page */
+
+ul.flex-direction-nav {
+	height: 20px;
+	width: 100%;
+	font-size: 12px;
+	position: relative;
+	left: 0;
+	top: -80px;
+}
+
+ol.flex-control-nav.flex-control-paging {
+	display: none;
+}
+
+a.flex-next {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
