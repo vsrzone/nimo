@@ -414,14 +414,14 @@ body{
 
 #office-title{
 	height: 330px;
-	width: 198px;
+	width: 148px;
 	position: relative;
 	background-color: #eab158;
 }
 
 #office-pic{
 	height: 330px;
-	width: 304px;
+	width: 254px;
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -453,7 +453,6 @@ body{
 
 #hansteel-furniture-title {
 	height: 60px;
-	width: 210px;
 	position: absolute;
 	top: 162px;
 	left: 0;
