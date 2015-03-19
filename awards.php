@@ -33,10 +33,10 @@
 	<div class="container-fluid padding-t-30 slideshow">
 		<div class="row">
 			<div id="top-banner">
-				<img class="page-banner"src="images/banners/about.png" height="250px" width="auto" alt="" title="banner01">
+				<img src="images/banners/awards.jpg" height="300px" width="804px" alt="" title="awards">
 				<div id="page-title-wrapper">
-					<p id="page-title">Who we are.</p>
-					<p id="breadcrums"><a href="about.php" target="_self">About</a></p>
+					<p id="page-title">Achievements</p>
+					<p id="breadcrums"><a href="about.php" target="_self">About</a> &gt; <a href="awards.php"  target="_self">Awards and Certificates</a></p>
 				</div>
 			</div>
 		</div>
@@ -46,24 +46,26 @@
 			<div class="col-xs-3">
 				<ul>
 					<a href="about.php"><li class="side-menu" id="side-heading">About Us</li></a>
-					<a href="awards.php"><li class="side-menu">Awards and Certificates</li></a>
+					<a href="awards.php"><li class="side-menu side-menu-selected">Awards and Certificates</li></a>
 					<a href="management.php"><li class="side-menu">Management</li></a>
 					<a href="#"><li class="side-menu">Other</li></a>
 				</ul>
-
-				<p class="para align-c">OUR RECOGNITION
-				<img src="images/recognition.png" width="100%" height="auto">
-				</p>
 			</div>
 			<div class="col-xs-9">
 				<div class="about-info">
-					<p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur imperdiet pulvinar erat, et suscipit ipsum tincidunt eget.</p>
-					<h5>VISION</h5>
-					<p class="about-para"><img src="images/vision.png" width="150px" alt="vision" title="vision">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-					<h5 class="align-r">MISSION</h5>
-					<p class="about-para"><img class="float-r" src="images/vision.png" width="150px" alt="vision" title="vision">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur imperdiet pulvinar erat, et suscipit ipsum tincidunt eget.</p>
-					<h5>OUR VALUES</h5>
-					<p class="about-para"><img src="images/vision.png" width="150px" alt="vision" title="vision">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula.</p>
+					<h5>AWARDS</h5>
+					<ul>
+						<li class="award"><p class="award-title">Award Title</p><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
+						<li class="award"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
+						<li class="award nopadding-r"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
+					</ul>
+
+					<h5>CERTIFICATES</h5>
+					<ul>
+						<li class="award"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
+						<li class="award"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
+						<li class="award nopadding-r"><img src="images/awards/award.png" alt="award" title="award" width="100%" height="auto"></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -115,4 +117,8 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+<script>
+
+</script>
 </html>

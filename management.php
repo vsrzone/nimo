@@ -35,8 +35,8 @@
 			<div id="top-banner">
 				<img class="page-banner"src="images/banners/about.png" height="250px" width="auto" alt="" title="banner01">
 				<div id="page-title-wrapper">
-					<p id="page-title">Who we are.</p>
-					<p id="breadcrums"><a href="about.php" target="_self">About</a></p>
+					<p id="page-title">The Team</p>
+					<p id="breadcrums"><a href="about.php" target="_self">About</a> &gt; <a href="management.php"  target="_self">Management</a></p>
 				</div>
 			</div>
 		</div>
@@ -47,23 +47,18 @@
 				<ul>
 					<a href="about.php"><li class="side-menu" id="side-heading">About Us</li></a>
 					<a href="awards.php"><li class="side-menu">Awards and Certificates</li></a>
-					<a href="management.php"><li class="side-menu">Management</li></a>
+					<a href="management.php"><li class="side-menu side-menu-selected">Management</li></a>
 					<a href="#"><li class="side-menu">Other</li></a>
 				</ul>
-
-				<p class="para align-c">OUR RECOGNITION
-				<img src="images/recognition.png" width="100%" height="auto">
-				</p>
 			</div>
 			<div class="col-xs-9">
 				<div class="about-info">
 					<p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur imperdiet pulvinar erat, et suscipit ipsum tincidunt eget.</p>
-					<h5>VISION</h5>
-					<p class="about-para"><img src="images/vision.png" width="150px" alt="vision" title="vision">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-					<h5 class="align-r">MISSION</h5>
-					<p class="about-para"><img class="float-r" src="images/vision.png" width="150px" alt="vision" title="vision">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur imperdiet pulvinar erat, et suscipit ipsum tincidunt eget.</p>
-					<h5>OUR VALUES</h5>
-					<p class="about-para"><img src="images/vision.png" width="150px" alt="vision" title="vision">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula.</p>
+					<ul>
+						<li class="management-list"><img class="management-img" src="images/manager.jpg" width="150px" height="auto"><h5>LOREM IPSUM</h5><p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in tellus nisi. Nam aliquet lacus sit amet dolor scelerisque lobortis. Quisque lacus erat, elementum eget nibh et, accumsan placerat enim.</p></li>
+						<li class="management-list"><img class="management-img" src="images/manager.jpg" width="150px" height="auto"><h5>LOREM IPSUM</h5><p class="about-para">Nunc fringilla, libero in ornare laoreet, tortor ligula egestas urna, in iaculis turpis nisi et elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur sollicitudin id urna sit amet rutrum. Duis sagittis leo nec urna faucibus feugiat.</p></li>
+						<li class="management-list"><img class="management-img" src="images/manager.jpg" width="150px" height="auto"><h5>LOREM IPSUM</h5><p class="about-para">Duis non convallis felis. Integer convallis risus ex, vel convallis elit aliquam eu. Cras suscipit vitae massa quis egestas. Praesent volutpat urna arcu, sit amet scelerisque nibh finibus quis. Cras eget iaculis magna.</p></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -115,4 +110,8 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+<script>
+
+</script>
 </html>

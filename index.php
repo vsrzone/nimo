@@ -1,6 +1,3 @@
-<?php 
-	define("HTTP_PATH", $_SERVER['SERVER_NAME']);
-?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -18,17 +15,17 @@
 	<div class="container-fluid top-navigation">
 	 	<div class="row centeral">
 	 		<ul class="main-menu">
-		 		<li class="abc nopadding-l"><a href="#">HOME</a></li>
-		 		<li class="abc"><a href="#">ABOUT</a></li>
-		 		<li class="abc"><a href="#">PRODUCTS</a></li>
+		 		<li class="abc nopadding-l"><a href="index.php">HOME</a></li>
+		 		<li class="abc"><a href="about.php">ABOUT</a></li>
+		 		<li class="abc"><a href="products.php">PRODUCTS</a></li>
 		 	</ul>
 		 	<ul class="main-menu">
 		 		<li class="abc"><a href="/"><img id="logo" src="images/logo.jpg" height="25px" width="auto" alt="Nimo & co"></a>
 		 	</ul>
 		 	<ul class="main-menu">
-		 		<li class="abc"><a href="#">CLIENTS</a></li>
-		 		<li class="abc"><a href="#">NEWS</a></li>
-		 		<li class="abc"><a href="#">CONTACT</a></li>
+		 		<li class="abc"><a href="clients.php">CLIENTS</a></li>
+		 		<li class="abc"><a href="news.php">NEWS</a></li>
+		 		<li class="abc"><a href="contact.php">CONTACT</a></li>
 	 		</ul>
 	 	</div>
 	</div>
