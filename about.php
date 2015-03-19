@@ -36,6 +36,7 @@
 	<div class="container-fluid padding-t-30 slideshow">
 		<div class="row">
 			<div id="top-banner">
+				<img src="images/banner" alt="" title="">
 				<div id="page-title-wrapper">
 					<p id="page-title">Who we are.</p>
 					<p id="breadcrums"><a href="#">About</a></p>

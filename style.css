@@ -383,7 +383,7 @@ body{
 }
 
 .showcase-box{
-	height: 330px;
+	height: 290px;
 	position: relative;
 	box-sizing: border-box;
 }
@@ -413,14 +413,14 @@ body{
 }
 
 #office-title{
-	height: 330px;
+	height: 290px;
 	width: 148px;
 	position: relative;
 	background-color: #eab158;
 }
 
 #office-pic{
-	height: 330px;
+	height: 290px;
 	width: 254px;
 	position: relative;
 	background-repeat: no-repeat;
@@ -433,7 +433,7 @@ body{
 	position: absolute;
 	font-size: 29px;
 	color: #fff;
-	top: 250px;
+	top: 220px;
 	left: 10px;
 	line-height: 1.0;
 }
