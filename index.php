@@ -15,7 +15,7 @@
 <body>
 
 <div id="page-wrapper">
-	<div class="container top-navigation">
+	<div class="container-fluid top-navigation">
 	 	<div class="row centeral">
 	 		<ul class="main-menu">
 		 		<li class="abc nopadding-l"><a href="#">HOME</a></li>
