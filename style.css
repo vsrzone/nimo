@@ -98,8 +98,6 @@ body{
 	text-decoration: none;
 }
 
-
-
 .top-navigation a{
 	color: #7e7e7e;
 	text-decoration: none;
@@ -539,3 +537,45 @@ a{
 a:visited{
 	text-decoration: none;
 }
+
+
+/* subpages */
+
+#top-banner{
+	width: 1004px;
+	height: 300px;
+	position: relative;
+	background: linear-gradient(to right, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 100%);
+	margin: 0 auto;
+}
+
+.about-content{
+	height: auto;
+	width: 1004px;
+	box-sizing: border-box;
+	padding-bottom: 40px;
+}
+
+#page-title-wrapper{
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	padding: 5px 100px 5px 10px;
+	background: linear-gradient(to right, rgba(247,247,247,1) 0%, rgba(252,252,252,1) 100%);
+}
+
+p#page-title{
+	font-size: 20px;
+	color: #919297;
+	margin-bottom: 0px;
+}
+
+p#breadcrums {
+  font-size: 11px;
+  margin-top: 0px;
+}
+
+p#breadcrums a {
+	color: #57639b !important;
+}
+

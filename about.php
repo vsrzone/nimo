@@ -35,66 +35,21 @@
 
 	<div class="container-fluid padding-t-30 slideshow">
 		<div class="row">
-			<div id="slider">
-				<div class="slider-arrow"></div>
-				<ul class="rslides previous">
-				  <li><img src="images/slides/slide01.jpg" alt="" title=""><p class="slider-desc">A STUNNING SPECIAL EDITION FROM <span style="color: 3883bd; font-weight: 700">Fulkrum</span></p></li>
-				  <li><img src="images/slides/slide02.jpg" alt="" title=""><p class="slider-desc">A SAMPLE SPECIAL EDITION FROM <span style="color: 3883bd; font-weight: 700">Fulkrum</span></p></li>
-				  <li><img src="images/slides/slide03.jpg" alt="" title=""><p class="slider-desc">A TEXT SPECIAL EDITION FROM <span style="color: 3883bd; font-weight: 700">Fulkrum</span></p></li>
-				</ul>
-				<div class="slider-arrow next"></div>
-			</div>
-			
-		</div>
-	</div>
-	<div class="container-fluid showcase">
-		<h4 class="showcase-title">OUR COLLECTION</h1>
-		<div class="row">
-			<div class="col-xs-6">
-				<div class="showcase-box" id="office-chairs">
-					<a href="#" target="_self">
-						<div id="office-title" class="inline-box"><div id="office-bottom-title">OFFICE CHAIRS</div></div>
-						<img id="office-pic" class="inline-box" src="images/office_chairs.jpg" width="100%" height="auto" alt="office_chairs" title="office_chairs">
-					</a>
-				</div>
-			</div>
-			<div class="col-xs-3 nopadding-r">
-				<div class="showcase-box" id="chubb-safes">
-					<a href="#" target="_self">
-					<img src="images/chubb_safes.jpg" width="100%" height="auto" alt="chubb_safes" title="chubb_safes" title="">
-					<div id="chubb-safes-title">CHUBB SAFES</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-xs-3 nopadding-l">
-				<div class="showcase-box" id="hansteel-furniture">
-					<a href="#" target="_blank">
-						<img src="images/hansteel_furniture.jpg" width="100%" height="auto" alt="hansteel-furniture" title="hansteel-furniture" title="">
-						<div id="hansteel-furniture-title">HANSTEEL FURNITURE</div>
-					</a>
-					<a href="#"><div id="showcase-more">MORE</div></a>
+			<div id="top-banner">
+				<div id="page-title-wrapper">
+					<p id="page-title">Who we are.</p>
+					<p id="breadcrums"><a href="#">About</a></p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid promotions">
-		<a href="#" target="_self">
-			<div id="promo-banner">
-				<img src="images/promo.png" alt="sample promo" title="sample promo" width="1004">
-				<div id="promo-content">
-					<div id="promo-title">DELPHI SEATING EXCELLENCE</div>
-					<div id="promo-desc">50% OFF ON THIS JANUARY</div>
-				</div>
-			</div>
-		</a>
-	</div>
-	<div class="container-fluid main-content">
+	<div class="container-fluid about-content">
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-2">
 				<h3 class="content-heading">ABOUT THE STORE HEADING</h3>
 				<p class="content-detail">We offer a full furniture installation service on all our products from our in-house team of experienced fitters. Delivery is free. We offer a full furniture installation service on all our products from our in-house team of experienced fitters. Delivery is free.</p>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-10">
 				<h3 class="content-heading">LATEST NEWS</h3>
 				<p class="content-detail"><a href="#">Winter is nearly here and the Mountain Collective prices are about to go up! Grab details and the ultimate season pass here...</a></p>
 				<p class="content-date">01 Oct 2015</p>
@@ -150,28 +105,6 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/responsiveslides.min.js"></script>
 <script>
-
-$(function() {
-  $(".rslides").responsiveSlides({
-		auto: true,             // Boolean: Animate automatically, true or false
-		speed: 500,            // Integer: Speed of the transition, in milliseconds
-		timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
-		pager: false,           // Boolean: Show pager, true or false
-		nav: true,             // Boolean: Show navigation, true or false
-		random: false,          // Boolean: Randomize the order of the slides, true or false
-		pause: false,           // Boolean: Pause on hover, true or false
-		pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-		prevText: "Previous",   // String: Text for the "previous" button
-		nextText: "Next",       // String: Text for the "next" button
-		maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
-		navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
-		manualControls: "",     // Selector: Declare custom pager navigation
-		namespace: "rslides",   // String: Change the default namespace used
-		before: function(){},   // Function: Before callback
-		after: function(){}     // Function: After callback
-	});
-
-});
 
 </script>
 </html>
