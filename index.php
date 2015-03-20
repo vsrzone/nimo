@@ -21,7 +21,7 @@
 		 		<li class="abc"><a href="products.php">PRODUCTS</a></li>
 		 	</ul>
 		 	<ul class="main-menu">
-		 		<li class="abc"><a href="/"><img id="logo" src="images/logo.jpg" height="25px" width="auto" alt="Nimo & co"></a>
+		 		<li class="abc"><a href="index.php"><img id="logo" src="images/logo.jpg" height="25px" width="auto" alt="Nimo & co"></a>
 		 	</ul>
 		 	<ul class="main-menu">
 		 		<li class="abc"><a href="clients.php">CLIENTS</a></li>
