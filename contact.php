@@ -34,10 +34,10 @@
 	<div class="container-fluid padding-t-30 slideshow">
 		<div class="row">
 			<div id="top-banner">
-				<img src="images/banners/awards.jpg" height="300px" width="804px" alt="" title="awards">
+				<img class="page-banner"src="images/banners/about.png" height="250px" width="auto" alt="" title="banner01">
 				<div id="page-title-wrapper">
-					<p id="page-title">Chubb Safes</p>
-					<p id="breadcrums"><a href="products.php" target="_self">Products</a> &gt; <a href="chubbsafes.php"  target="_self">Chubb Safes</a></p>
+					<p id="page-title">Contact Us</p>
+					<p id="breadcrums"><a href="contact.php" target="_self">Contact</a></p>
 				</div>
 			</div>
 		</div>
@@ -45,26 +45,29 @@
 	<div class="container-fluid about-content">
 		<div class="row">
 			<div class="col-xs-3">
-				<ul>
-					<a href="about.php"><li class="side-menu" id="side-heading">Products</li></a>
-					<a href="chubbsafes.php"><li class="side-menu side-menu-selected">Chubb Safes</li></a>
-					<a href="chubbsafes.php"><li class="side-menu">Fulcrum</li></a>
-					<a href="chubbsafes.php"><li class="side-menu">Vitra</li></a>
-					<a href="chubbsafes.php"><li class="side-menu">Herman Miller</li></a>
-				</ul>
+				<h6 class="margin-t5">OUR NETWORK</h6>
+				<p class="contact-info">359 Blackwell Street, Suite 200</p>
+				<p class="contact-info">Durham, NC 27701 USA</p>
+				<p class="contact-info">T 1.919.544.7040</p>
+				<p class="contact-info">F 1.919.544.7261</p>
 			</div>
 			<div class="col-xs-9">
 				<div class="about-info">
-					<div class="selected-brand"><img class="management-img" src="images/brands/brand.png" width="150px" height="auto" alt="brand" title="chubbsafes"><h5>Chubb Safes</h5><p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in tellus nisi. Nam aliquet lacus sit amet dolor scelerisque lobortis. Quisque lacus erat, elementum eget nibh et, accumsan placerat enim.</p></div>
-				</div>
-				<div class="product-info">
-					<ul>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe.png" alt="brand" title="chubbsafes" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe1.png" alt="brand" title="fulcrum" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe2.png" alt="brand" title="vitra" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe1.png" alt="brand" title="chubbsafes" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe2.png" alt="brand" title="fulcrum" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe.png" alt="brand" title="vitra" width="100%" height="auto"></div></a></li>
+					<p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur imperdiet pulvinar erat, et suscipit ipsum tincidunt eget.</p>
+					<ul id="contact-form">
+						<form action="" method=""></form>
+						<li class="contact-list left"><p>Your Name*</p></li>
+						<li class="contact-list right"><input type="text" class="text-input" name="name"/></li>
+						<li class="contact-list left"><p>Email*</p></li>
+						<li class="contact-list right"><input type="text" class="text-input" name="email"/></li>
+						<li class="contact-list left"><p>Phone*</p></li>
+						<li class="contact-list right"><input type="text" class="text-input" name="phone"/></li>
+						<li class="contact-list left"><p>Subject*</p></li>
+						<li class="contact-list right"><input type="text" class="text-input" name="subject"/></li>
+						<li class="contact-list left"><p>Your Comments*</p></li>
+						<li class="contact-list right"><textarea class="text-area"></textarea></li>
+						<li class="contact-list left"><p>&nbsp;</p></li>
+						<li class="contact-list right"><input type="submit" value="Submit" class="submit-btn"/></li>
 					</ul>
 				</div>
 			</div>
@@ -117,8 +120,4 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/responsiveslides.min.js"></script>
-<script>
-
-</script>
 </html>

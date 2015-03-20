@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
 </head>
 <body>
 
@@ -34,10 +35,10 @@
 	<div class="container-fluid padding-t-30 slideshow">
 		<div class="row">
 			<div id="top-banner">
-				<img src="images/banners/awards.jpg" height="300px" width="804px" alt="" title="awards">
+				<img class="page-banner"src="images/banners/about.png" height="250px" width="auto" alt="" title="banner01">
 				<div id="page-title-wrapper">
-					<p id="page-title">Chubb Safes</p>
-					<p id="breadcrums"><a href="products.php" target="_self">Products</a> &gt; <a href="chubbsafes.php"  target="_self">Chubb Safes</a></p>
+					<p id="page-title">News</p>
+					<p id="breadcrums"><a href="news.php" target="_self">News</a></p>
 				</div>
 			</div>
 		</div>
@@ -46,25 +47,27 @@
 		<div class="row">
 			<div class="col-xs-3">
 				<ul>
-					<a href="about.php"><li class="side-menu" id="side-heading">Products</li></a>
-					<a href="chubbsafes.php"><li class="side-menu side-menu-selected">Chubb Safes</li></a>
-					<a href="chubbsafes.php"><li class="side-menu">Fulcrum</li></a>
-					<a href="chubbsafes.php"><li class="side-menu">Vitra</li></a>
-					<a href="chubbsafes.php"><li class="side-menu">Herman Miller</li></a>
+					<a href="news.php"><li class="side-menu" id="side-heading">News</li></a>
+					<a href="news.php"><li class="side-menu">Latest News</li></a>
+					<a href="news.php"><li class="side-menu">Archive</li></a>
+					<a href="news.php"><li class="side-menu">Categories</li></a>
 				</ul>
 			</div>
 			<div class="col-xs-9">
 				<div class="about-info">
-					<div class="selected-brand"><img class="management-img" src="images/brands/brand.png" width="150px" height="auto" alt="brand" title="chubbsafes"><h5>Chubb Safes</h5><p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in tellus nisi. Nam aliquet lacus sit amet dolor scelerisque lobortis. Quisque lacus erat, elementum eget nibh et, accumsan placerat enim.</p></div>
-				</div>
-				<div class="product-info">
 					<ul>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe.png" alt="brand" title="chubbsafes" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe1.png" alt="brand" title="fulcrum" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe2.png" alt="brand" title="vitra" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe1.png" alt="brand" title="chubbsafes" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe2.png" alt="brand" title="fulcrum" width="100%" height="auto"></div></a></li>
-						<li class="award"><a href="chubbsafes.php" target="_self"><div class="award-img-wrapper"><img src="images/chubbsafes/chubbsafe.png" alt="brand" title="vitra" width="100%" height="auto"></div></a></li>
+						<li class="news-list">
+							<h5 class=".margin-t5">Aliquam vel congue sem</h5>
+							<p class="about-para"><img src="images/news.jpg" width="200px" alt="news" title="news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+						</li>
+						<li class="news-list">
+							<h5 class=".margin-t5">SOME TITLE</h5>
+							<p class="about-para"><img src="images/news1.jpg" width="200px" alt="news" title="news">Nam congue ut sem in ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas odio eu dolor pellentesque vulputate nec at sapien. Curabitur mattis nulla nec vehicula suscipit.</p>
+						</li>
+						<li class="news-list">
+							<h5 class=".margin-t5">Quisque porttitor vulputate lorem eget ultricies</h5>
+							<p class="about-para"><img src="images/news2.jpg" width="200px" alt="news" title="news">Fusce maximus placerat ex, ac sagittis elit. Nam commodo, nisl quis semper pellentesque, elit nibh lacinia lorem, a dictum sem diam sed orci. Vestibulum a mi sem. Phasellus nec molestie orci. Nam ullamcorper sapien ipsum, nec hendrerit lacus congue vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -117,8 +120,5 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/responsiveslides.min.js"></script>
-<script>
 
-</script>
 </html>

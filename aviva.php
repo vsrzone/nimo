@@ -56,7 +56,7 @@
 			</div>
 			<div class="col-xs-9">
 				<div class="about-info">
-					<p class="about-para"><img src="images/vision.png" width="150px" alt="vision" title="vision">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+					<p class="about-para"><img src="images/clients/client.png" width="150px" alt="vision" title="vision">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
 					<h5>SOME TITLE</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula. Curabitur dolor felis, tristique eu malesuada sollicitudin, cursus eu risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur imperdiet pulvinar erat, et suscipit ipsum tincidunt eget.</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare magna quis velit ullamcorper faucibus et vitae ligula.</p>
@@ -165,8 +165,9 @@
       $('.flexslider').flexslider({
         animation: "slide",
         animationLoop: false,
-        itemWidth: 210,
-        itemMargin: 2,
+        itemWidth: 189,
+        itemMargin: 1,
+        slideshow: false,
         pausePlay: false,
         start: function(slider){
           $('body').removeClass('loading');
